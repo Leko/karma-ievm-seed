@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/Leko/karma-ievm-seed#readme",
   "devDependencies": {
+    "brfs": "^1.4.0",
     "dotenv": "^1.1.0",
     "jasmine-core": "^2.3.0",
     "karma": "^0.12.31",
+    "karma-browserify": "^4.1.2",
     "karma-chrome-launcher": "^0.1.8",
     "karma-firefox-launcher": "^0.1.4",
     "karma-ie-launcher": "^0.1.5",

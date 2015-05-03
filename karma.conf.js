@@ -12,7 +12,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine', 'browserify'],
 
 
     // list of files / patterns to load in the browser
@@ -29,6 +29,20 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+        'tests/**/*Spec.js': ['browserify']
+    },
+
+
+    // https://github.com/nikku/karma-browserify
+    // http://efcl.info/2014/0411/res3820/
+    browserify: {
+        debug: true,
+        files: [
+            'tests/**/*Spec.js',
+        ],
+        transform: [
+            'brfs',
+        ]
     },
 
 
