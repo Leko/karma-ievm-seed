@@ -1,0 +1,27 @@
+{
+  "name": "karma-ievm-seed",
+  "version": "0.0.0",
+  "description": "Boilerplate for karma unit testing on IE in windows VM",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leko/karma-ievm-seed.git"
+  },
+  "keywords": [
+    "karma",
+    "ie",
+    "vm",
+    "unit",
+    "test",
+    "test"
+  ],
+  "author": "Leko <leko.noor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leko/karma-ievm-seed/issues"
+  },
+  "homepage": "https://github.com/Leko/karma-ievm-seed#readme"
+}
